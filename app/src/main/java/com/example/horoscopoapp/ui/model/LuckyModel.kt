@@ -1,5 +1,9 @@
 package com.example.horoscopoapp.ui.model
 
-data class LuckyModel(
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
 
+data class LuckyModel(
+    @DrawableRes val image:Int,
+    @StringRes val text:Int
 )
